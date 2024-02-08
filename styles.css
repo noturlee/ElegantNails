@@ -218,6 +218,11 @@ nav a:hover {
 @media only screen and (max-width: 768px) {
     /* Styles for screens up to 768px wide (typical tablets) */
 
+     body {
+            max-width: 100%; /* Ensure content fits perfectly on mobile screens */
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
     @media only screen and (max-width: 768px) {
         nav ul {
           display: none;
