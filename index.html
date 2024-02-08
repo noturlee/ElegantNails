@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Elegant Nails</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="EL.png" alt="Elegant Nails Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#main-content">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#specials">Deals</a></li> <!-- Added link for Specials -->
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h1>Welcome to <span>Elegant Nails</span></h1>
+        <p>Your go-to destination for stunning nail art and pampering services.</p>
+        <img src="https://media3.giphy.com/media/d2lkrTTHR3O48RGOci/giphy.gif" alt="Elegant Nails Opening Image" class="opening-image">
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Discover our wide range of nail services designed to make your nails look elegant and beautiful.</p>
+        <!-- Add more content for services as needed -->
+    </section>
+
+    <section id="specials">
+        <h2>Special Deals</h2>
+        <p>Discover our latest specials and promotions on nail services.</p>
+        <img src="vday.png" alt="Special" class="special-image">
+        <!-- Add content for Specials as needed -->
+    </section>
+    
+    
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Explore our gallery showcasing the exquisite nail designs created at Elegant Nails.</p>
+        <div class="gallery-carousel">
+            <div class="carousel-container">
+                <div class="carousel-item">
+                    <img src="EL.png" alt="Nail Design 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="EL.png" alt="Nail Design 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="image.gif" alt="Nail Design 3">
+                </div>
+                <!-- Add more images as needed -->
+            </div>
+            <div class="carousel-controls">
+                <button class="prev-btn">&lt;</button>
+                <button class="next-btn">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to book an appointment? Contact us for inquiries and appointments.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="nailType">Nail Type:</label>
+            <select id="nailType" name="nailType" required>
+                <option value="naturalGel">Natural Gel</option>
+                <option value="artificialGel">Artificial Gel</option>
+            </select>
+
+            <label for="nailLocation">Nail Location:</label>
+            <select id="nailLocation" name="nailLocation" required>
+                <option value="hands">Both Hands</option>
+                <option value="feet">Both Feet</option>
+                <option value="handsAndFeet">Both Hands and Feet</option>
+            </select>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+        </section>
+</section>
+
+
+
+<footer id="footer">
+    <p>&copy; 2024 Elegant Nails. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
