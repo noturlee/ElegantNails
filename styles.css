@@ -234,6 +234,8 @@ nav a:hover {
             display: block; /* Stack items vertically on smaller screens */
             width: 100%; /* Full width for each item on smaller screens */
             margin: 5px 0; /* Adjust margin for stacked items */
+            align-items: center; /* Center items vertically */
+
         }
         
         nav ul.active {
