@@ -223,8 +223,7 @@ nav a:hover {
             overflow-x: hidden; /* Prevent horizontal scrolling */
         }
 
-    @media only screen and (max-width: 768px) {
-        nav ul {
+    nav ul {
           display: none;
           flex-direction: column; /* Stack items vertically for mobile view */
           position: absolute;
@@ -237,7 +236,7 @@ nav a:hover {
       
         #services ul li {
             display: block; /* Stack items vertically on smaller screens */
-            width: 100%; /* Full width for each item on smaller screens */
+            width: 60%; /* Full width for each item on smaller screens */
             margin: 5px 0; /* Adjust margin for stacked items */
             align-items: center; /* Center items vertically */
 
